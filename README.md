@@ -36,12 +36,12 @@ cd Docker-script
 ```
 编辑配置文件：config.yml [配置文件说明](https://crackair.gitbook.io/xrayr-project/xrayr-pei-zhi-wen-jian-shuo-ming/config)
 
-启动docker
+**启动docker**
 ```
 docker-compose up -d
 ```
 
-**无法启动docker**
+**无法启动docker 请先执行此命令 再执行启动docker命令**
 ```
 systemctl start docker
 ```
