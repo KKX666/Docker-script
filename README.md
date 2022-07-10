@@ -1,6 +1,6 @@
 # 本库基于Docker部署XrayR作者原版的一键脚本
 
-一键脚本
+# 一键脚本
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/KKX666/Docker-script/main/xrayr.sh)
 ```
