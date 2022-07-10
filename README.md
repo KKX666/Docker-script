@@ -14,10 +14,24 @@ A Xray backend framework that can easily support many panels.
 bash <(curl -sL https://raw.githubusercontent.com/KKX666/Docker-script/main/xrayr.sh)
 ```
 
-# Docker-compose 安装XrayR (推荐)
+# 安装Docker-compose (推荐)
 依次执行
 ```
 curl -fsSL https://get.docker.com | bash -s docker
 curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
+```
+
+# Docker-compose 安装XrayR
+```
+git clone https://github.com/KKX666/Docker-script
+```
+```
+cd Docker-script
+```
+编辑配置文件：config.yml[配置文件说明](https://crackair.gitbook.io/xrayr-project/xrayr-pei-zhi-wen-jian-shuo-ming/config)
+
+启动docker
+```
+docker-compose up -d
 ```
