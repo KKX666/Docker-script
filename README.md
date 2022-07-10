@@ -5,6 +5,9 @@ A Xray backend framework that can easily support many panels.
 
 如对脚本不放心，可使用此沙箱先测一遍再使用：https://killercoda.com/playgrounds/scenario/ubuntu
 
+# 官方文档
+**[XrayR-project](https://crackair.gitbook.io/xrayr-project)**
+
 # 特点
 - 永久开源且免费。
 - 支持V2ray，Trojan， Shadowsocks多种协议。
