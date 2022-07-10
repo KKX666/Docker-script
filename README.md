@@ -26,6 +26,28 @@ A Xray backend framework that can easily support many panels.
 - [x] 支持设置有无证书三种证书申请方式：`dns file http`，其中 `dns` 证书申请仅支持Cloudflare dns
 - [x] 支持查看xrayr配置
 
+## 功能介绍
+| 功能            | v2ray | trojan | shadowsocks |
+| --------------- | ----- | ------ | ----------- |
+| 获取节点信息    | √     | √      | √           |
+| 获取用户信息    | √     | √      | √           |
+| 用户流量统计    | √     | √      | √           |
+| 服务器信息上报  | √     | √      | √           |
+| 自动申请tls证书 | √     | √      | √           |
+| 自动续签tls证书 | √     | √      | √           |
+| 在线人数统计    | √     | √      | √           |
+| 在线用户限制    | √     | √      | √           |
+| 审计规则        | TODO  | TODO   | TODO        |
+| 节点端口限速    | √     | √      | √           |
+| 按照用户限速    | √     | √      | √           |
+
+## 支持前端
+| 前端        | v2ray | trojan | shadowsocks                    |
+| ----------- | ----- | ------ | ------------------------------ |
+| sspanel-uim | √     | √      | √ (Shadowsocks - V2Ray-Plugin) |
+| ProxyPanel  | TODO  | TODO   | TODO                           |
+| v2board     | TODO  | TODO   | TODO                           |
+
 # 一键脚本
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/KKX666/Docker-script/main/xrayr.sh)
