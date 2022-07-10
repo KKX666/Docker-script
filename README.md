@@ -34,7 +34,7 @@ git clone https://github.com/KKX666/Docker-script
 ```
 cd Docker-script
 ```
-编辑配置文件：config.yml [配置文件说明](https://crackair.gitbook.io/xrayr-project/xrayr-pei-zhi-wen-jian-shuo-ming/config)
+**编辑配置文件：config.yml [配置文件说明]**(https://crackair.gitbook.io/xrayr-project/xrayr-pei-zhi-wen-jian-shuo-ming/config)
 
 **启动docker**
 ```
