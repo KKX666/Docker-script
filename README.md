@@ -40,3 +40,8 @@ cd Docker-script
 ```
 docker-compose up -d
 ```
+
+**无法启动docker  
+```
+systemctl start docker
+```
